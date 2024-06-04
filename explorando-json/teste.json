@@ -1,0 +1,15 @@
+[
+    {
+        "nome": "Gustavo",
+        "idade": 19,
+        "esta_trabalhando": true,
+        "detalhes_profissao": {
+            "profissao": "Desenvolvedor de Software",
+            "empresa": "Fontana",
+            "horario-entrada": 8.00,
+            "horario-saida": 18.00 
+        },
+        "hobbies": ["videogame","leitura","programar"]
+
+    }
+]
