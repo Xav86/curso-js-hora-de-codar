@@ -40,11 +40,13 @@ function addTask() {
 }
 
 // função de remover tarefa
+
 function removeTask(task) {
     task.parentNode.remove(true);
 }
 
 //função para completar a tarefa
+
 function completeTask(task) {
    const taskComplete = task.parentNode;
 
@@ -52,6 +54,7 @@ function completeTask(task) {
 }
 
 // evento de adicionar tarefa
+
 const addBtn = document.querySelector("#add-btn");
 
 addBtn.addEventListener("click", function(e) {
